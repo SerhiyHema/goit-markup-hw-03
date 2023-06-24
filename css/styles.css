@@ -1,0 +1,276 @@
+:root {
+  /* Font */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Colors */
+  --main-dark-cl: #111111;
+  --main-light-cl: #ffffff;
+  --accent-cl: #2e2f42;
+  --accent-hh: #434455;
+  --accent-bt: #4d5ae5;
+  --accent-btbg: #f4f4fd;
+
+  /* Others */
+}
+/*common styles*/
+.page {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+/* Reset */
+.list,
+ul,
+ol {
+  list-style: none;
+}
+
+.link,
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.btn,
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/*header*/
+.header {
+}
+
+.header-nav {
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--accent-bt);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-durkground {
+  color: #2e2f42;
+}
+
+.header-list {
+  list-style: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
+  text-decoration: none;
+}
+
+.header-item {
+}
+
+.header-link {
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
+}
+
+.header .link:hover,
+.header .link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address-list {
+  font-weight: 400;
+
+  list-style: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.header-contacts-mail {
+}
+
+.header-contacts-link {
+}
+
+.header-contacts-tel {
+}
+
+/*hero*/
+.hero-section {
+  background: #2e2f42;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--main-light-cl);
+  text-align: center;
+}
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-light-cl);
+  background-color: var(--accent-bt);
+  letter-spacing: 0.04em;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+/*one*/
+.onesection {
+}
+
+.onesection-list {
+  list-style: none;
+}
+.onesection-item {
+}
+
+.onesection-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
+}
+
+.onesection-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-hh);
+}
+
+/*two*/
+.two-section {
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.two-list {
+}
+
+/*three*/
+.three-section {
+  background-color: var(--accent-btbg);
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--accent-cl);
+}
+
+.subtitle-team {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.three-item {
+  background-color: #ffffff;
+}
+
+/*portfolio*/
+.section-portfolio {
+}
+
+.portfolio-btn-one {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--accent-bt);
+  background-color: var(--accent-btbg);
+}
+
+.portfolio-btn-one:hover,
+.portfolio-btn-one:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.portfolio-img-list {
+  list-style: none;
+}
+
+.portfolio-img-item {
+  text-decoration: none;
+}
+
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--accent-cl);
+}
+
+.portfolio-par {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--accent-hh);
+}
+
+/*footer*/
+.footer {
+  background: #2e2f42;
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-lightground {
+  color: #f4f4fd;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
