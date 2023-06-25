@@ -289,6 +289,7 @@ button {
 }
 
 .subtitle-team {
+  margin-bottom: 8px;
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -390,7 +391,8 @@ button {
 }
 
 .footer-logo {
-  display: block;
+  display: inline-block;
+  margin-bottom: 16px;
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 16px;
