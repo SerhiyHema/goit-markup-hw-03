@@ -360,21 +360,10 @@ button {
   list-style: none;
 }
 
-.portfolio-img-itemone {
+.portfolio-img-item {
   text-decoration: none;
   display: inline-block;
   padding-bottom: 50px;
-}
-
-.portfolio-img-itemtwo {
-  text-decoration: none;
-  display: inline-block;
-  padding-bottom: 50px;
-}
-
-.portfolio-img-itemthree {
-  text-decoration: none;
-  display: inline-block;
 }
 
 .portfolio-subtitle {
