@@ -360,6 +360,12 @@ button {
   list-style: none;
 }
 
+.img-title-border {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
+}
+
 .portfolio-img-item {
   text-decoration: none;
   display: inline-block;
