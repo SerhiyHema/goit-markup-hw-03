@@ -255,6 +255,7 @@ button {
 
 /*three*/
 .three-section {
+  padding-top: 120px;
   padding-bottom: 120px;
   background-color: var(--accent-btbg);
 }
@@ -272,6 +273,7 @@ button {
 
 .three-list {
   display: flex;
+  gap: 24px;
   justify-content: space-between;
 }
 
