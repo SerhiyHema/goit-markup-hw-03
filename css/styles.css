@@ -199,10 +199,15 @@ button {
 
 /*one*/
 .onesection {
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
 }
 
 .onesection-list {
+  gap: 24px;
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -212,6 +217,7 @@ button {
 }
 
 .onesection-subtitle {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
