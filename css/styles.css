@@ -178,15 +178,6 @@ button {
   color: var(--main-light-cl);
 }
 
-.hero-controls {
-  display: block;
-  margin: 0 auto;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  text-align: center;
-  border-radius: 4%;
-}
-
 .hero-btn {
   display: block;
   min-width: 169px;
