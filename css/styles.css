@@ -234,10 +234,11 @@ button {
 
 /*two*/
 .two-section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .section-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -248,6 +249,7 @@ button {
 }
 .two-list {
   display: flex;
+  gap: 24px;
   justify-content: space-between;
 }
 
