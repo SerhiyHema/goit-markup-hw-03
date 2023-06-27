@@ -66,8 +66,6 @@ button {
 
 /*header*/
 .header {
-  padding-top: 23px;
-  padding-bottom: 23px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -75,7 +73,6 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-nav {
@@ -160,7 +157,7 @@ button {
 .hero-section {
   padding-top: 188px;
   padding-bottom: 188px;
-  margin-bottom: 120px;
+
   background: #2e2f42;
 }
 
@@ -169,8 +166,8 @@ button {
   margin-bottom: 56px;
   display: block;
   margin: 0 auto;
-  padding-top: 169px;
-  padding-bottom: 48px;
+
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -180,7 +177,8 @@ button {
 
 .hero-btn {
   display: block;
-  margin-left: 472px;
+  margin: 0 auto;
+  padding: 16px 32px;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -273,8 +271,6 @@ button {
 }
 
 .section-title {
-  padding-top: 120px;
-  padding-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -326,8 +322,6 @@ button {
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
-  padding-left: 271px;
-  padding-bottom: 72px;
 }
 
 .portfolio-btn-one {
@@ -356,8 +350,7 @@ button {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-top: 96px;
-  margin-bottom: 72px;
+
   list-style: none;
 }
 
@@ -371,7 +364,6 @@ button {
 .portfolio-img-item {
   text-decoration: none;
   display: inline-block;
-  padding-bottom: 50px;
 }
 
 .portfolio-subtitle {
@@ -401,8 +393,7 @@ button {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  padding-top: 100px;
-  padding-bottom: 16px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -417,9 +408,8 @@ button {
 }
 .footer-text {
   display: block;
-  margin: 0 auto;
-  padding-right: 864px;
-  padding-bottom: 100px;
+
+  width: 264px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
